@@ -35,6 +35,10 @@ import helmet from "helmet";
       name: String!
       content: String
     }
+    type Turtle {
+      id: ID!
+      name: String!
+    }
   `;
 
   let messages = [];
