@@ -35,6 +35,11 @@ import helmet from "helmet";
       name: String!
       content: String
     }
+    type SecretMessage {
+      id: ID!
+      name: String!
+      secretContent: String!
+    }
   `;
 
   let messages = [];
